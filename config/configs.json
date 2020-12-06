@@ -1,0 +1,93 @@
+{
+  "repos": [
+	{
+      "url": "https://github.com/Xargs007/CardsCustom",
+	  "repo_name": "custom",
+	  "repo_path": "./expansions/NakamasCustom",
+	  "has_core": false,
+	  "data_path": "",
+	  "should_update": true,
+	  "should_read": true
+	},
+	{
+      "url": "https://github.com/khriskh/Multilanguage",
+      "repo_name": "Multilanguage YGOProES",
+      "repo_path": "./config/languages",
+      "has_core": false,
+      "data_path": "",
+      "should_update": true,
+      "should_read": true
+    },
+    {
+      "url": "https://github.com/ProjectIgnis/DeltaHopeHarbinger",
+      "repo_name": "Project Ignis updates",
+      "repo_path": "./repositories/delta",
+      "has_core": true,
+      "core_path": "bin",
+      "data_path": "",
+      "script_path": "script",
+      "should_update": true,
+      "should_read": true
+    },
+    {
+      "url": "https://github.com/ProjectIgnis/LFLists",
+      "repo_name": "Forbidden & Limited Card Lists",
+      "repo_path": "./repositories/lflists",
+      "has_core": false,
+      "should_update": true,
+      "should_read": true,
+      "lflist_path": "."
+    },
+    {
+      "url": "https://github.com/ProjectIgnis/Puzzles",
+      "repo_name": "Project Ignis puzzles",
+      "repo_path": "./puzzles/Canon collection",
+      "has_core": false,
+      "should_update": true,
+      "should_read": true
+    }
+  ],
+  "urls": [
+	{
+      "url": "https://github.com/Xargs007/images/tree/master/pics/{}.jpg",
+      "type": "pic"
+	},
+	{
+      "url": "https://github.com/Shad3Light/animescripts/tree/master/pics/{}.jpg",
+      "type": "pic"
+	},
+	{
+      "url": "https://storage.googleapis.com/ygoprodeck.com/pics/{}.jpg",
+      "type": "pic"
+	},
+    {
+      "url": "default",
+      "type": "pic"
+    },
+	{
+      "url": "default",
+      "type": "field"
+    },
+    {
+      "url": "default",
+      "type": "cover"
+    }
+  ],
+  "servers": [
+    {
+      "name": "EU Central (Competitive)",
+      "address": "185.227.110.90",
+      "duelport": 7911,
+      "roomaddress": "185.227.110.90",
+      "roomlistport": 7922
+    },
+    {
+      "name": "US West (Casual)",
+      "address": "146.71.79.166",
+      "duelport": 7911,
+      "roomaddress": "146.71.79.166",
+      "roomlistport": 7922
+    }
+  ],
+  "posixPathExtension": "/usr/local/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+}
